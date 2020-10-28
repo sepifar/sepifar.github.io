@@ -1,3 +1,10 @@
+body {
+	color: #77676E;
+/*	background: url("image.jpeg");*/
+	font-family: avenir; sans-serif;
+	font-weight: 400;
+}
+
 header {
 	text-align:center;
 	font-family: Montserrat, sans-serif; 
@@ -45,12 +52,6 @@ p {
 	font-family: avenir; sans-serif;
 }
 
-body {
-	color: #77676E;
-	font-family: avenir; sans-serif;
-	font-weight: 400;
-}
-
 h2 {
 	color: #99BFE5;
 	font-family: montserrat, sans-serif;
@@ -60,9 +61,19 @@ h2 {
 	text-transform: uppercase;
 }
 
+ul{
+	text-align: left;
+	list-style-type: none;
+}
+
 li {
 	color: #77676E;
 	font-family: avenir; sans-serif;
+}
+
+#slogan{
+	font-style: italic;
+	text-align: center;
 }
 
 .different {
