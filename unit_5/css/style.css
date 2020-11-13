@@ -89,6 +89,9 @@ video{
 	margin: auto;
 }
 
+#important{
+	font-weight: bold;
+}
 
 .headerheading{
 	font-family: Montserrat, sans-serif;
