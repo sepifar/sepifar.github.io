@@ -2,13 +2,12 @@
 	padding-top: 0;
 	margin: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Caveat&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
 body {
 	background-color: white;
 	/*text-align: center;*/
 	color: #77676E; /*brown*/
 	font-family: 'Work Sans', sans-serif;
-
 	font-size: 16px;
 	font-weight: 300;
 }
@@ -25,12 +24,13 @@ h2 {
 	color: #77676E; /*brown*/
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
-	font-style: bold;
+	font-weight: bold;
 	font-size: 36px;
 	text-align: center;
 	text-transform: uppercase;
 	padding: 20px;
-}
+	}
+
 a {
 	color: #CB6844; /*muddy orange*/
 	font-family: 'Work Sans', sans-serif;
@@ -53,68 +53,73 @@ nav {
 	text-align: right;
 	padding-right: 20px;
 	word-spacing: 15px;
-	color:#99BFE5;
+/*	color:#99BFE5;*/
 	font-weight: 400;
 }
+
 .slogan {
 	font-size: 22px;
 	font-family: 'Work Sans', sans-serif;
 	font-style: italic;
   	font-weight: 300;
 }
-.button{
+	.button{
 	margin-top: 50px;
 	margin-bottom: 80px;
-	padding: 6px;
+	padding: 8px;
 	background-color: #CB6844; /*muddy orange*/
 	border: none;
 	border-radius:6px;
-	width: 160px;
+	width: 140px;
 	color: white;
 	text-decoration: none;
 	letter-spacing: 1px;
 	word-spacing: 1px;
-/*	text-align: center;*/
-	display:inline-block;
+	text-align: center;
 	font-size: 18px;
 	font-family: 'Work Sans', sans-serif;
-	font-weight: normal;
+	font-weight: 400;
+	display:inline-block;
 }
+
 div{
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	width: 270px;
-/*	padding: 20px;*/
-/*	margin: 20px;*/
+	padding: 20px;
+	margin: 20px;
 }
 .emphasis{
 	font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
-	font-style: 700;
+	font-weight: 700;
 	padding: 18px;
 }
 .center{
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-size: 40px;
-	color: #77676E; /*brown*/
+	color: #77676E; brown
 }
 .one {
 	text-align: center;
-/*	font-style: bold;*/
+	font-style: bold;
 	font-size: 18px;
 	margin-left: 260px;
 	margin-right: 260px;
 	padding-bottom: 40px;
 	height: 400px;
 }
+#wrapper{
+	width:100%;
+}
 img {
 	width:100%;
 	height: auto;
 	filter: grayscale(50%);
-	/*filter: contrast(80%)*/
-	/*filter: brightness(70%);*/
+	/*filter: contrast(80%)
+	/*filter: brightness(70%);
 	/*filter:hue-rotate(362deg);*/
 	/*filter:blur(5px);*/
 	padding-bottom: 30px;
@@ -131,6 +136,7 @@ ul{
 	text-align: left;
 	list-style-type: none;
 	color: #77676E; /*brown*/
+	padding-bottom: 10px;
 }
 li {
 	color: #77676E; /*brown*/
