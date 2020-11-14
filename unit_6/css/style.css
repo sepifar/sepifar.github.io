@@ -1,0 +1,265 @@
+*{
+	padding-top: 0;
+	margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Caveat&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+
+body{
+	color: #77676E; /*brown*/
+	font-family: 'avenir', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+nav{
+	font-family: 'Work Sans', sans-serif;
+	text-align: right;
+	padding-right: 20px;
+	word-spacing: 15px;
+	color:#CB6844; /*muddy orange*/
+	font-weight: 400;
+}
+
+header{
+	width: 100%;
+	height: 550px;
+	background: rgba(153,191,229,.5); /*light blue with opacity*/
+	padding-top: 30px; /*area between nav bar and top edge*/
+	padding-bottom: 35px; /*area between last light and bottom edge*/
+	text-align: center;
+	color: #77676E; /*brown*/
+}
+
+main{
+/*	margin:center;*/
+}
+
+footer{
+	background: #77676E; /*brown*/;
+	height: 300px;
+	color: white;
+	padding-left: 100px;
+	padding-top: 40px;
+}
+
+section{
+}
+
+h1{	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 64px;
+	padding-bottom: 20px;
+	line-height: 1.25em;
+}
+
+h2{
+}
+
+h3{	
+	color: #CB6844; /*muddy orange*/;
+}
+h4{
+/*	font-weight: bold;*/
+	margin-left: 25px;
+}
+p{
+}
+
+li{
+}
+
+a{
+	color:#CB6844; /*muddy orange*/
+	text-decoration: none;
+}
+
+a:hover{
+	background-color:#CB6844; /*muddy orange*/
+/*	width: 100px;*/
+	color: #FFFFFF;
+}
+
+img{
+}
+
+video{
+}
+
+#wrapper{
+	background-color: #F1F0F1; /*off-white*/
+	width: 1080px;
+	margin: auto;
+}
+
+#important{
+	font-weight: bold;
+}
+
+.headerheading{
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+	font-size: 48px;
+	padding-top: 64px;
+	padding-bottom: 20px;
+	line-height: 1.25em;
+	text-transform: capitalize;
+}
+
+.slogan{
+	font-size: 20px;
+	font-family: 'Work Sans', sans-serif;
+	font-style: italic;
+  	font-weight: 300;
+}
+
+.button{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 8px;
+	background-color: #CB6844; /*muddy orange*/
+	border: none;
+	border-radius:6px;
+	width: 140px;
+	color: #F1F0F1;
+	text-decoration: none;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-size: 18px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	display:inline-block;
+}
+
+.info
+{
+	margin:auto;
+	text-align:center;
+	width:800px;
+	padding-bottom:10px;
+}
+
+.financials
+{
+	display: inline-block;
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	width: 200px;
+}
+
+.emphasis{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	padding-top: 18px;
+}
+
+.financialsBorder
+{
+	display: inline-block;
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	width: 200px;
+	padding: 20px;
+	border-right: 2px dotted #CB6844; /*muddy orange*/;
+	border-left: 2px dotted #CB6844; /*muddy orange*/;
+}
+
+.emphasisBorder
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	padding-top: 18px;
+}
+
+#problem{
+background: #EFEBE9;
+height: 400px;
+/*rgba(83,153,223,.5);*/
+}
+
+#problemBlock{
+	margin: auto;
+	color: #77676E; /*brown*/
+	font-size: 1.1em;
+	text-align: center;
+	width: 480px;
+	padding-bottom: 40px;
+	line-height: 1.5em;
+	height: 300px;
+}
+
+#solution{
+	background: rgba(153,191,229,.5); /*light blue*/
+}
+
+#solutionBlock{
+	display: inline-block;
+	margin-left: 100px;
+	color: #77676E; /*brown*/
+	font-size: 1.1em;
+	text-align: left;
+	width: 430px;
+	padding-bottom: 40px;
+	line-height: 1.5em;
+	height: 600px;
+}
+
+#solutionParagraph{
+	text-align: justify;
+}
+
+/*span{
+	font-style: bold;
+}*/
+
+.image{
+		display: inline-block;
+		margin-left: 100px;
+		border: none;
+}
+
+#product{
+}
+
+/*.videoBox:{
+	margin: auto;
+}*/
+
+#productBlock{
+	display: inline-block;
+	margin-left: 100px;
+	color: #77676E; /*brown*/
+	font-size: 1.1em;
+	text-align: left;
+	width: 880px;
+	margin: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 80px;
+	line-height: 1.5em;
+/*	height: 600px;*/
+
+}
+
+.column1{
+	display:inline-block;
+	vertical-align: top;
+}
+
+.column2{
+	display:inline-block;
+	margin-left: 80px;
+	vertical-align: top;
+	margin-top:47px;
+}
+
+.link{
+	color: white;
+}
