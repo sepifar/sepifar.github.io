@@ -141,6 +141,14 @@ video{
 	display:inline-block;
 }
 
+.button a {
+	color: #F1F0F1;
+}
+
+.button a:hover{
+	color: #77676E; /*brown*/
+}
+
 .info
 {
 	margin:auto;
