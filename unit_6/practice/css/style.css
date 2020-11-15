@@ -1,0 +1,150 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 85%;
+    margin: auto;
+}
+
+body {
+    font-family: avenir, sans-serif;
+    font-size: 16px;
+    color: #259;
+}
+
+h1 {
+    font-family: helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+p {
+    font-family: avenir, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.1em;
+}
+
+a{
+    font-family: avenir, sans-serif;
+    text-decoration: none;
+    display: block;
+    color: #FFF;
+    width: 100px;
+}
+
+#one{ /*Nav*/
+    background-color: #aaa;
+    font-family: helvetica, sans-serif;
+    border: 2px white solid;
+}
+
+nav a {
+    background-color: #ff7900;
+    color: white;
+    display: block;
+    padding: 20px;
+    width: auto;
+    float: left;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;    
+    height: 0px;
+    font-size: 0;
+}
+
+nav a:hover{
+    background-color:orange;
+}
+
+header { /*Header*/
+	background-color: #F6AFAD;
+    text-align: center;
+    border: 2px white solid;
+    padding: 20px;
+    line-height: 1.5em;
+}
+header h1{
+    font-size: 2.3em;
+    padding-bottom: .25em;
+}
+
+header p {
+    font-size: 1.2em;
+    width: 400px;
+    margin: auto;
+}
+
+#two_columns{
+    background-color: #FBEAE2;
+    padding: 20px;
+    border: 2px white solid;
+}
+
+#three{ /*Article*/
+	background-color: #F2BBC1;
+/*    border: 4px white solid;*/
+    padding: 20px;
+    float: left;
+    width: 58%;
+    height: 200px;
+}
+
+#four{ /*Aside*/
+	background-color: #F2BBC1;
+/*    border: 4px white solid;*/
+    padding: 20px;
+    float: right;
+    width: 28%;
+    height: 200px;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;    
+    height: 0px;
+    font-size: 0;
+ }
+
+#five { /*Section One*/
+	background-color: #F6AFAD;
+    border: 2px white solid;
+    padding: 20px;
+}
+
+#six { /*Section Two*/
+	background-color: #FA90A4;
+    border: 2px white solid;
+    padding: 20px;
+}
+
+#seven { /*footer*/
+    background-color: #DA7585;
+    border: 2px white solid;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size:.8em;
+    padding-top: 3em;
+}
+
+footer a {
+    line-height: 1.5em;
+}
+footer h1{
+    text-align: center;
+}

@@ -8,7 +8,7 @@
 body{
 	color: #77676E; /*brown*/
 	font-family: 'avenir', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 }
 
@@ -61,10 +61,15 @@ h2{
 
 h3{	
 	color: #CB6844; /*muddy orange*/;
+/*	text-align: center;*/
+	padding-bottom: 10px;
+	font-size: 1.2em;
 }
+
 h4{
 /*	font-weight: bold;*/
 	margin-left: 25px;
+
 }
 p{
 }
@@ -97,6 +102,8 @@ video{
 
 #important{
 	font-weight: bold;
+	color: #CB6844; /*muddy orange*/
+	font-size: 1.1em;
 }
 
 .headerheading{
@@ -154,8 +161,8 @@ video{
 .emphasis{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 30px;
-	padding-top: 18px;
+	font-size: 32px;
+	padding-top: 16px;
 }
 
 .financialsBorder
@@ -189,8 +196,7 @@ height: 400px;
 	color: #77676E; /*brown*/
 	font-size: 1.1em;
 	text-align: center;
-	width: 480px;
-	padding-bottom: 40px;
+	width: 550px;
 	line-height: 1.5em;
 	height: 300px;
 }
@@ -205,7 +211,7 @@ height: 400px;
 	color: #77676E; /*brown*/
 	font-size: 1.1em;
 	text-align: left;
-	width: 430px;
+	width: 420px;
 	padding-bottom: 40px;
 	line-height: 1.5em;
 	height: 600px;
@@ -228,6 +234,7 @@ height: 400px;
 #product{
 }
 
+
 /*.videoBox:{
 	margin: auto;
 }*/
@@ -245,7 +252,75 @@ height: 400px;
 	padding-bottom: 80px;
 	line-height: 1.5em;
 /*	height: 600px;*/
+}
 
+#productBlock p{
+	width: 430px;
+	text-align: justify;
+}
+
+#two_column{
+/*background: rgba(153,191,229,.5); /*light blue*/
+border: none;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-left: 20px;
+/*margin-bottom: 20px;*/
+}
+
+#left {
+background: rgba(153,191,229,.5); /*light blue*/
+border: 2px white solid;
+padding: 34px;
+float: left;
+width: 40%;	
+height: 270px;
+}
+
+#right{
+background: rgba(153,191,229,.5); /*light blue*/
+border: 2px white solid;
+padding: 34px;	
+float: right;
+width: 40%;
+height: 270px;
+}
+
+#two_columns{
+/*background: rgba(153,191,229,.5); /*light blue*/*/
+border: none;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+
+#lefty{
+background: rgba(153,191,229,.5); /*light blue*/
+border: 2px white solid;
+padding: 34px;
+float: left;
+width: 40%;	
+height: 410px;
+}
+
+#righty{
+background: rgba(153,191,229,.5); /*light blue*/
+border: 2px white solid;
+padding: 34px;	
+float: right;
+width: 40%;
+height: 410px;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 .column1{
