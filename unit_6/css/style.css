@@ -99,6 +99,13 @@ hr{
 img{
 }
 
+mark{
+	border-bottom: 2px solid #CB6844;
+	color:#77676E; /*brown*/
+	background: none; /*rgba(153,191,229,.5);*/ /*light blue with opacity*/
+/*	text-decoration: underline #CB6844 solid;*/
+}
+
 video{
 }
 
