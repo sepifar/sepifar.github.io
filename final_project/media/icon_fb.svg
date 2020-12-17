@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="46" viewBox="0 0 40 46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Component" transform="translate(-0.279 0.091)">
+    <rect id="Rectangle_392" data-name="Rectangle 392" class="cls-1" width="40" height="46" transform="translate(0.279 -0.091)"/>
+    <path id="Path_1" data-name="Path 1" class="cls-2" d="M95.086,44.517V24.237h6.925L103,16.323H95.086V11.377c0-2.226.742-3.957,3.957-3.957h4.2V.247C102.258.247,99.785,0,97.065,0c-5.936,0-10.14,3.71-10.14,10.387v5.936H80v7.914h6.925v20.28Z" transform="translate(-71.309 0.652)"/>
+  </g>
+</svg>

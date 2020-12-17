@@ -7,12 +7,14 @@
 
 body{
 	color: #77676E; /*brown*/
-	font-family: 'avenir', sans-serif;
+	font-family: Avenir Helvetica Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
-	width: 100%;
-	margin: 0 auto;
-/*	background-color: red;*/
+	background-image: url(media/IMG_4664.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 nav{
@@ -38,7 +40,7 @@ nav a:hover{
 
 header{
 	height: auto;
-	background: rgba(153,191,229,.5); /*light blue with opacity*/
+/*	background: rgba(153,191,229,.5); /*light blue with opacity*/
 	padding-top: 1.66em; /*area between nav bar and top edge*/
 	padding-bottom: 3em; /*area between last line and bottom edge*/
 	text-align: center;
@@ -101,7 +103,7 @@ video{
 }
 
 #wrapper{
-/*	background-color: #F1F0F1; /*off-white*/*/
+/*	background-color: #F1F0F1; /*off-white*/
 background-color: #fff;
 /*	width: 100%;*/
 	margin: 0 auto;
@@ -229,20 +231,32 @@ background-color: white;
 #solution{
 /*	width:100%;*/
 	background: rgba(153,191,229,.5); /*light blue*/
-	margin: 0 10%;
+	margin: 0 auto;
 	height: auto;
-	padding: 3em;
+	padding-bottom: 3em;
 }
 
-/*#solution p{
+#solutionBlock{
+	float:left;
+	width: 43%;
+	margin: 0 2% 0 10%;
+/*	margin-right: 2%;*/
+	color: #77676E; /*brown*/
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+#solution p{
 	text-align: justify;
-}*/
+}
 
 
 #jet{
-	float: left;
-	width: 25%;
-	padding-right: 5%;
+	float: right;
+	width: 35%;
+	padding-top: 10%;
+	border: none;
+	padding-right:5%;
 }
 
 #product{
